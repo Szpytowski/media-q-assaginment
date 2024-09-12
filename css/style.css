@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: URL("../background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
   /* background-image: url("background.webp");  i don'know why i couldn't set a background with this method, i tried on empty projects, i watched tutorials and i did everything as instructed in the tutorials, is it my pc?*/
 }
 
@@ -23,6 +26,7 @@ body {
 }
 
 .recipe-info,
+.recipe-image,
 .ingredients {
   width: 35%;
   background-color: #f7f7f7;
@@ -67,14 +71,22 @@ ol {
   }
 
   .recipe-info,
-  .recipe-image,
   .ingredients {
     width: 100%;
     margin-bottom: 20px;
   }
-  .recipe-image img {
-    padding: 0;
+
+  .recipe-image {
+    width: 100%;
+    margin-bottom: 20px;
   }
+
+  .recipe-image img {
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+  }
+
   ol {
     padding-left: 6px;
   }
