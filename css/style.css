@@ -38,6 +38,8 @@ body {
 .recipe-image {
   width: 50%;
   padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .recipe-image img {
